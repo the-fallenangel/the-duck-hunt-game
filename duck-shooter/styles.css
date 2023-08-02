@@ -1,0 +1,29 @@
+*{
+    cursor: url(img/aim.png), auto;
+}
+body{
+    overflow: hidden;
+    background-image: url(img/bg1.png);
+    background-size: 90%;
+    background-blend-mode: screen;
+}
+
+.duck{
+    padding: 20px;
+}
+.duck-left{
+    left: -10%;
+}
+.duck-right{
+    right: -10%;
+}
+.container {
+    text-align: center;
+}
+  
+#countdown {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: none;
+}

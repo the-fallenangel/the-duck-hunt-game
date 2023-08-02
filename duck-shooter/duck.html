@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck Hunter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="container absolute top-[50%] z-20">
+        <h1 id="countdown">3</h1>
+        <button id="startButton" class="bg-green-500 p-2 rounded">START GAME</button>
+    </div>
+    <!-- <img src="img/bg1.png" class="absolute -z-10 bottom-0 w-full" alt=""> -->
+    <div class="point-case flex absolute bottom-10 right-10 z-20">
+        <div class="empty-case w-[50px] h-[50px] rounded-full mx-2 border-white border-2 bg-black " id="case-1"></div>
+        <div class="empty-case w-[50px] h-[50px] rounded-full mx-2 border-white border-2 bg-black " id="case-2"></div>
+        <div class="empty-case w-[50px] h-[50px] rounded-full mx-2 border-white border-2 bg-black " id="case-3"></div>
+        <div class="empty-case w-[50px] h-[50px] rounded-full mx-2 border-white border-2 bg-black " id="case-4"></div>
+        <div class="empty-case w-[50px] h-[50px] rounded-full mx-2 border-white border-2 bg-black " id="case-5"></div>
+    </div>
+    <div class="duck-hitpoint" id="hit-1">
+        <img class="absolute z-50 w-28 duck duck-left" id="duck-1" src="img/duck.gif" alt="">
+    </div>
+    <div class="duck-hitpoint" id="hit-2">
+        <img class="absolute z-50 w-28 duck duck-left" id="duck-2" src="img/duck.gif" alt="">
+    </div>
+    <div class="duck-hitpoint" id="hit-3">
+        <img class="absolute z-50 w-28 duck duck-left" id="duck-3" src="img/duck.gif" alt="">
+    </div>
+    <div class="duck-hitpoint" id="hit-4">
+        <img class="absolute z-50 w-28 duck duck-left" id="duck-4" src="img/duck.gif" alt="">
+    </div>
+    <div class="duck-hitpoint" id="hit-5">
+        <img class="absolute z-50 w-28 scale-x-[-1] duck duck-right" id="duck-5" src="img/duck.gif" alt="">
+    </div>
+    <div class="duck-hitpoint" id="hit-6">
+        <img class="absolute z-50 w-28 scale-x-[-1] duck duck-right" id="duck-6" src="img/duck.gif" alt="">
+    </div>
+    <div class="duck-hitpoint" id="hit-7">
+        <img class="absolute z-50 w-28 scale-x-[-1] duck duck-right" id="duck-7" src="img/duck.gif" alt="">
+    </div>
+    <div class="duck-hitpoint" id="hit-8">
+        <img class="absolute z-50 w-28 scale-x-[-1] duck duck-right" id="duck-8" src="img/duck.gif" alt="">
+    </div>
+    <div class="duck-hitpoint" id="hit-9">
+        <img class="absolute z-50 w-28 scale-x-[-1] duck" id="duck-9" src="img/duck.gif" alt="">
+    </div>
+
+    <div>
+        <button class="absolute top-5 right-10 rounded bg-blue-600 z-50 p-2 " id="restart-btn">RESTART</button>
+    </div>
+    <script src="index.js"></script>
+    <script src="duck-fly.js"></script>
+    <script src="countdown.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!-- <input type="checkbox" id="duck1">
+    <label for="duck1" class="duck"></label>
+
+    <input type="checkbox" id="duck2">
+    <label for="duck2" class="duck"></label>
+
+    <input type="checkbox" id="duck3">
+    <label for="duck3" class="duck"></label>
+
+    <input type="checkbox" id="duck4">
+    <label for="duck4" class="duck"></label>
+
+    <input type="checkbox" id="duck5">
+    <label for="duck5" class="duck"></label>
+
+    <div class="score"></div>
+     -->
